@@ -2,7 +2,15 @@ from pathlib import Path
 
 import pytest
 
-from docqa.index import BM25Index, Chunk, chunk_markdown, load_corpus, slug, stem, tokenize
+from docqa.index import (
+    BM25Index,
+    Chunk,
+    chunk_markdown,
+    load_corpus,
+    slug,
+    stem,
+    tokenize,
+)
 
 CORPUS = Path(__file__).parents[1] / "corpus"
 

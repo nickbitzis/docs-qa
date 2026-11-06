@@ -1,7 +1,13 @@
 from pathlib import Path
 from types import SimpleNamespace
 
-from docqa.answer import Answer, build_prompt, claude_answer, extractive_answer, parse_citations
+from docqa.answer import (
+    Answer,
+    build_prompt,
+    claude_answer,
+    extractive_answer,
+    parse_citations,
+)
 from docqa.index import BM25Index, load_corpus
 
 INDEX = BM25Index(load_corpus(Path(__file__).parents[1] / "corpus"))

@@ -9,11 +9,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 STOPWORDS = frozenset(
-    """a about after all also an and any are as at be been before being both but by can could
-    did do does done each for from get got had has have how i if in into is it its just me
-    more most my no not of on only or other our over same should so some such than that the
-    their them then there these they this through to too under up us very was way we were
-    what when where which who why will with would you your""".split()
+    ["a", "about", "after", "all", "also", "an", "and", "any", "are", "as", "at", "be", "been", "before", "being", "both", "but", "by", "can", "could", "did", "do", "does", "done", "each", "for", "from", "get", "got", "had", "has", "have", "how", "i", "if", "in", "into", "is", "it", "its", "just", "me", "more", "most", "my", "no", "not", "of", "on", "only", "or", "other", "our", "over", "same", "should", "so", "some", "such", "than", "that", "the", "their", "them", "then", "there", "these", "they", "this", "through", "to", "too", "under", "up", "us", "very", "was", "way", "we", "were", "what", "when", "where", "which", "who", "why", "will", "with", "would", "you", "your"]
 )
 
 
