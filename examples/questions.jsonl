@@ -1,0 +1,18 @@
+{"question": "How long do invitations stay valid?", "expected": "getting-started#invite-your-team"}
+{"question": "Who can delete the workspace?", "expected": "getting-started#roles"}
+{"question": "How much does the Business plan cost per member?", "expected": "billing#plans"}
+{"question": "Do view-only guests count as paid seats?", "expected": "billing#how-seats-are-counted"}
+{"question": "I was charged twice, when do I get my money back?", "expected": "billing#invoices-and-refunds"}
+{"question": "How do I change the address printed on invoices?", "expected": "billing#invoices-and-refunds"}
+{"question": "What discount do yearly plans get?", "expected": "billing#annual-billing"}
+{"question": "Our team is locked out after changing SSO settings", "expected": "sso#troubleshooting"}
+{"question": "Does removing a user from Okta delete their account?", "expected": "sso#just-in-time-provisioning"}
+{"question": "What happens when I exceed the API rate limit?", "expected": "api#rate-limits"}
+{"question": "How do I get the next page of results from the API?", "expected": "api#pagination"}
+{"question": "How are webhook payloads signed?", "expected": "api#webhooks"}
+{"question": "Are file attachments included in a CSV export?", "expected": "data-export#attachments"}
+{"question": "Export of a huge board keeps timing out", "expected": "data-export#known-issues"}
+{"question": "How long are backups kept?", "expected": "security#backups"}
+{"question": "Can I restore a task I deleted last week?", "expected": "security#deleted-items"}
+{"question": "What is the recovery time objective?", "expected": "security#backups"}
+{"question": "How long are audit logs retained?", "expected": "security#audit-logs"}
